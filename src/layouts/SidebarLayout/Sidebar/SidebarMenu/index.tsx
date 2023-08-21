@@ -212,7 +212,7 @@ function SidebarMenu() {
                   disableRipple
                   component={RouterLink}
                   onClick={closeSidebar}
-                  to="/dashboards/crypto"
+                  to="/crypto"
                   startIcon={<BrightnessLowTwoToneIcon />}
                 >
                   Cryptocurrency
@@ -223,7 +223,7 @@ function SidebarMenu() {
                   disableRipple
                   component={RouterLink}
                   onClick={closeSidebar}
-                  to="/dashboards/messenger"
+                  to="/messenger"
                   startIcon={<MmsTwoToneIcon />}
                 >
                   Messenger

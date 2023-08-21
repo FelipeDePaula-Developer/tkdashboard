@@ -80,9 +80,8 @@ function Hero() {
         container
       >
         <Grid item md={10} lg={8} mx="auto">
-          <LabelWrapper color="success">Version 2.0.0</LabelWrapper>
           <TypographyH1 sx={{ mb: 2 }} variant="h1">
-            Tokyo Free White React Typescript Admin Dashboard
+            Tokyo CRM
           </TypographyH1>
           <TypographyH2
             sx={{ lineHeight: 1.5, pb: 4 }}
@@ -90,17 +89,15 @@ function Hero() {
             color="text.secondary"
             fontWeight="normal"
           >
-            High performance React template built with lots of powerful
-            Material-UI components across multiple product niches for fast &
-            perfect apps development processes
+            Sign up If you don't have a register
           </TypographyH2>
           <Button
             component={RouterLink}
-            to="/dashboards/crypto"
+            to="/signup"
             size="large"
             variant="contained"
           >
-            Browse Live Preview
+            Sign Up
           </Button>
           <Button
             sx={{ ml: 2 }}
@@ -111,7 +108,7 @@ function Hero() {
             size="large"
             variant="text"
           >
-            Key Features
+            Login
           </Button>
           <Grid container spacing={3} mt={5}>
             <Grid item md={6}>
